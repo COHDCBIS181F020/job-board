@@ -19,7 +19,7 @@ const JobContext = createContext<JobContextType | undefined>(undefined);
 export const JobProvider = ({ children }: { children: ReactNode }) => {
   const [jobs, setJobs] = useState<Job[]>([
     {
-    id: '1',
+    id: 1,
     title: 'Frontend Developer',
     company: 'Google',
     location: 'Mountain View, CA',
@@ -27,7 +27,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   },
   {
-    id: '2',
+    id: 2,
     title: 'Backend Engineer',
     company: 'Amazon',
     location: 'Seattle, WA',
@@ -35,7 +35,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Build RESTful APIs and microservices using Node.js and AWS.'
   },
   {
-    id: '3',
+    id: 3,
     title: 'UI/UX Designer',
     company: 'Meta',
     location: 'Menlo Park, CA',
@@ -51,7 +51,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Leverage large datasets to deliver personalized recommendations.'
   },
   {
-    id: '5',
+    id: 5,
     title: 'Mobile App Developer',
     company: 'Spotify',
     location: 'New York, NY',
@@ -59,7 +59,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Develop cross-platform apps with React Native and ensure performance optimization.'
   },
   {
-    id: '6',
+    id: 6,
     title: 'DevOps Engineer',
     company: 'Docker Inc.',
     location: 'San Francisco, CA',
@@ -67,7 +67,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Automate CI/CD pipelines and manage Kubernetes-based infrastructure.'
   },
   {
-    id: '7',
+    id: 7,
     title: 'Machine Learning Engineer',
     company: 'OpenAI',
     location: 'Remote',
@@ -75,7 +75,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Research and implement ML models in NLP and generative AI.'
   },
   {
-    id: '8',
+    id: 8,
     title: 'Product Manager',
     company: 'Stripe',
     location: 'San Francisco, CA',
@@ -83,7 +83,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Own product roadmaps and work cross-functionally with engineering teams.'
   },
   {
-    id: '9',
+    id: 9,
     title: 'Cybersecurity Analyst',
     company: 'Cisco',
     location: 'Austin, TX',
@@ -91,7 +91,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Monitor and respond to cyber threats and design mitigation strategies.'
   },
   {
-    id: '10',
+    id: 10,
     title: 'Business Analyst',
     company: 'Salesforce',
     location: 'Chicago, IL',
@@ -99,7 +99,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Analyze business processes and deliver data-driven insights.'
   },
   {
-    id: '11',
+    id: 11,
     title: 'QA Engineer',
     company: 'Zoom',
     location: 'Remote',
@@ -107,7 +107,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Develop automated test suites and ensure software quality across platforms.'
   },
   {
-    id: '12',
+    id: 12,
     title: 'Cloud Architect',
     company: 'Microsoft Azure',
     location: 'Redmond, WA',
@@ -115,7 +115,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Design scalable cloud solutions and provide architectural guidance.'
   },
   {
-    id: '13',
+    id: 13,
     title: 'Game Developer',
     company: 'Epic Games',
     location: 'Cary, NC',
@@ -123,7 +123,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Develop gameplay features using Unreal Engine and C++.'
   },
   {
-    id: '14',
+    id: 14,
     title: 'AI Researcher',
     company: 'DeepMind',
     location: 'London, UK',
@@ -131,7 +131,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Conduct foundational AI research and collaborate on publications.'
   },
   {
-    id: '15',
+    id: 15,
     title: 'IT Support Specialist',
     company: 'Dell',
     location: 'Round Rock, TX',
