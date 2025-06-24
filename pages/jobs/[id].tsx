@@ -5,8 +5,8 @@ import { useJobContext } from '../../context/JobContext';
 export default function JobDetailPage() {
   const { query } = useRouter();
   const { jobs } = useJobContext();
-const job = jobs.find((j) => j.id.toString() === query.id);
-
+const jobId = Array.isArray(query.id) ? query.id[0] : query.id;
+const job = jobs.find((j) => j.id === Number(jobId));
   if (!job) {
     return <div className="p-6 text-red-500">Job not found</div>;
   }
