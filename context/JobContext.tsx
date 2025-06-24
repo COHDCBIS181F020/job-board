@@ -43,7 +43,7 @@ export const JobProvider = ({ children }: { children: ReactNode }) => {
     description: 'Design intuitive and responsive user interfaces for mobile and web.'
   },
   {
-    id: '4',
+    id: 4,
     title: 'Data Scientist',
     company: 'Netflix',
     location: 'Los Gatos, CA',
